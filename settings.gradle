@@ -14,5 +14,5 @@ pluginManagement {
 // 2. Uncomment "include js-ir-app"
 
 include 'core-lib'
-include 'js-ir-app'
+//include 'js-ir-app'
 
