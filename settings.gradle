@@ -1,0 +1,18 @@
+pluginManagement {
+    plugins {
+        id "org.jetbrains.kotlin.multiplatform" version "1.6.21"
+        id "org.jetbrains.kotlin.js" version "1.6.21"
+    }
+    repositories {
+        gradlePluginPortal()
+        mavenLocal()
+    }
+}
+
+// How to prevent "Could not determine the dependencies of task js-ir-app:testPackageJson" error
+// 1. Build and publish core-lib
+// 2. Uncomment "include js-ir-app"
+
+include 'core-lib'
+include 'js-ir-app'
+

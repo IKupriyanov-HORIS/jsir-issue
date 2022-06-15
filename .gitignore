@@ -1,0 +1,6 @@
+# Project exclude paths
+/.gradle/
+/build/
+/core-lib/build/
+/core-lib/build/classes/kotlin/jvm/main/
+/js-ir-app/build/
